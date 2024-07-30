@@ -1,0 +1,63 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 26vw;
+    padding: 20px;
+    background-color: #E5E5E5;
+    border-radius: 24px;
+}
+
+form h2 {
+    font-size: medium;
+    margin-bottom: 5px;
+    color: #14213D;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form label {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #14213D;
+}
+
+form input {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #14213D;
+    height: 20px;
+    border-radius: 8px;
+    padding: 16px 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: none;
+    width: 95%;
+}
+
+form a {
+    font-weight: bold;
+    color: #14213D;
+}
+
+
+form a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FCA311;
+}
+
+
+.form-alternative-login {
+    display: flex;
+    gap: 20px;
+}
+
+.form-alternative-login a {
+    color: #14213D;
+    font-size: 24px;
+}
+
+.form-alternative-login a:hover {
+    color: #FCA311;
+}
